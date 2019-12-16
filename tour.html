@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Primary Meta Tags -->
+    <title>東山咖啡|景點介紹</title>
+    <meta name="title" content="東山咖啡">
+    <meta name="description" content="東山咖啡|景點介紹">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="東山咖啡|景點介紹">
+    <meta property="og:description" content="東山咖啡|景點介紹">
+    <meta property="og:image" content="./images/Geography_03.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="">
+    <meta property="twitter:title" content="東山咖啡|景點介紹">
+    <meta property="twitter:description" content="東山咖啡|景點介紹">
+    <meta property="twitter:image" content="./images/Geography_03.jpg">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/coffee.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/dataTables.bootstrap4.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/coffee.png" width="30" height="30" class="d-inline-block">
+                東山咖啡
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">
+                            <i class="fas fa-home"></i> 首頁
+                            <span class="sr-only">(current)</span>//螢幕閱讀器
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./tour.html">
+                            <i class="fas fa-tree"></i> 景點介紹
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./shop.html">
+                            <i class="fas fa-shopping-cart"></i> 商品介紹
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid" id="loading">
+        <div class="row h-100">
+            <div class="col-12 align-self-center text-center">
+                <img src="./images/loading.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container" id="content">
+        <div class="row">
+            <div class="col-12 my-3 ">
+                <h1 class="text-center text-white">景點介紹</h1>
+                <hr class="bg-white"> 
+            </div>
+            <div class="col-12 my-3 text-white" >
+                <table class="table table-hover table-light" id="tour">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>名稱</th>
+                            <th>地點</th>
+                            <th>電話</th>
+                            <th>介紹</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-th="名稱">東山咖啡文化館</td>
+                            <td data-th="地點">733台南市東山區中興路18號號</td>
+                            <td data-th="電話">06-680-2816</td>
+                            <td data-th="介紹"data-img="dongshan-cafe_01.jpg"> 
+                                <!-- 資料藏圖片 -->
+                                <button class="btn btn-link">
+                                    <i class="fas fa-info-circle"></i>詳細資料
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-th="名稱">优香咖啡馆</td>
+                            <td data-th="地點">台南市東山區83-5 號</td>
+                            <td data-th="電話">0988-123-566</td>
+                            <td data-th="介紹" data-img="dongshan-cafe_01.jpg">
+                                <button class="btn btn-link">
+                                    <i class="fas fa-info-circle"></i>詳細資料
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td data-th="名稱">十方源咖啡馆</td>
+                            <td data-th="地點">733台南市東山區高原里北寮79-6號</td>
+                            <td data-th="電話">0933-690-775</td>
+                            <td data-th="介紹" data-img="dongshan-cafe_01.jpg">
+                                 <button class="btn btn-link">
+                                     <i class="fas fa-info-circle"></i>詳細資料
+                                 </button>
+                            </td >
+                        </tr>
+                        <tr>
+                            <td data-th="名稱">雲峰亭東山咖啡專賣店</td>
+                            <td data-th="地點">732台南市白河區關嶺里水火洞10之5號</td>
+                            <td data-th="電話">06-682-3086</td>
+                            <td data-th="介紹"data-img="dongshan-cafe_01.jpg">
+                                <button class="btn btn-link">
+                                    <i class="fas fa-info-circle"></i>詳細資料
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-primary text-white text-center" id="footer">
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">
+                            <i class="fab fa-line"></i>
+                        </a>
+                    </li>
+                </ul>
+                <h5>&copy; <script>
+                    document.write(new Date().getFullYear())
+                </script>泰山網頁班</h5>
+            </div>
+        </div>
+    </div>
+    <!-- 互動視窗 -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="modal">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title"></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <img src="" class="w-100">
+                <h6>
+                    <i class="fas fa-map-marker-alt text-success"></i> 地點:
+                    <span></span>
+                </h6>    
+                <h6>
+                    <i class=" fas fa-location-arrow text-success"></i> 電話:
+                    <span></span>
+                </h6>
+            
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">關閉</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/jquery.dataTables.min.js"></script>
+    <script src="js/dataTables.bootstrap4.min.js"></script>
+    <script>
+        $(window).on('load', function(){
+            $("#loading").fadeOut(2000, function(){
+                $("#content").fadeIn();
+                $("#footer").fadeIn();
+            })
+        })
+        new WOW().init()
+        $("#tour").DataTable({
+            language:{
+                url:'./datatable-chinese.json'
+            },
+            columnDefs:[
+                {
+                    targets:3,
+                    orderable:false,
+                    searchable:false
+                }
+                
+            ]
+        })
+        $("#tour button").on("click",function(){
+            let title =$(this).parents("tr").find("td").eq(0).text()
+            $("#modal .modal-title").text(title)
+
+            let addr =$(this).parents("tr").find("td").eq(1).text()
+            $("#modal .modal-body span").eq(0).text(addr)
+
+            let tel =$(this).parents("tr").find("td").eq(2).text()
+            $("#modal .modal-body span").eq(1).text(tel)
+
+            let img =$(this).parents("tr").find("td").eq(3).attr("data-img")
+            $("#modal .modal-body img").attr("src","./images/"+img)
+
+
+            $("#modal").modal("show")
+        })
+       
+  
+    </script>
+</body>
+
+</html>
